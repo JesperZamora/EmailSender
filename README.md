@@ -14,7 +14,12 @@ You will need to make an "App password" on your google account.
 
 Remember! A App password will be rewoked by google if you change your password to your account.
 
-Postman was used to test the endpoints.
+Postman was used to test the endpoints. There are two endpoints, the one pictured below is the one you should use because it uses the MimeMessage class that can be used to send multiple attachements, files, images, html/css content etc. The other endpoint goes to the sendEmail() metode that uses the SimpleMessage class which is just a walmart version.
+
+```
+http://localhost:8080/send-mime
+```
+
 ```json
 {
     "to": "yourmail@gmail.com",
@@ -24,4 +29,7 @@ Postman was used to test the endpoints.
     "message": "This is a test message...."
 }
 ```
+
+
+
 
