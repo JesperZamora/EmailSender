@@ -15,7 +15,7 @@ You will need to make an "App password" on your google account.
 Remember! A App password will be rewoked by google if you change your password to your account.
 
 Postman was used to test the endpoints.
-
+```json
 {
     "to": "yourmail@gmail.com",
     "reply": "[customersmails]@xxx.com",
@@ -23,4 +23,5 @@ Postman was used to test the endpoints.
     "number": "12345678",
     "message": "This is a test message...."
 }
+```
 
