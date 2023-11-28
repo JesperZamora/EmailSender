@@ -1,6 +1,5 @@
 # EmailSender
-This is an custom email service using the google api and java spring JavaMailSender Api.
-I'm using Spring Boot an for the dependencies:
+This is an custom email service using the google api and java spring JavaMailSender Api. I'm using Spring Boot and for the dependencies:
 
 ```
         <dependency>
