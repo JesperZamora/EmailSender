@@ -20,9 +20,9 @@ There are two custom classes that contains the html/css, CustomerMessage and Aut
 The CustomerMessage class is the form that the company will get with the customer information, AutoReply class holds auto-message.
 
 You will need to make an "App password" on your google account. 
- - Login to your google account go to "Manage Your Account" (click on your picture in the left corner).
+ - Login to your google account go to "Manage Your Account" (click on your picture in the top right corner).
  - Search for "App password" and create a password.
- - Place the password as an Environment Variable in your (see application properties file) and do the same for your gmail (xxx@gmail.com)
+ - Place the password as an Environment Variable in your application (see application properties file) and do the same for your gmail (xxx@gmail.com).
 
 
 #### Remember! An App password will be rewoked by google if you change your password to your account.
