@@ -11,13 +11,20 @@ You will need to make an "App password" on your google account.
  - Search for "App password" and create a password.
  - Place the password as an Environment Variable in your (see application properties file) and do the same for your gmail (xxx@gmail.com)
 
-Remember! A App password will be rewoked by google if you change your password to your account.
+
+#### Remember! An App password will be rewoked by google if you change your password to your account.
+
+<br>
 
 Postman was used to test the endpoints. There are two endpoints, the one pictured below is the one you should use because it uses the MimeMessage class that can be used to send multiple attachements, files, images, html/css content etc. The other endpoint goes to the sendEmail() metode that uses the SimpleMessage class which is just a walmart version.
+
+<br>
 
 ```
 http://localhost:8080/send-mime
 ```
+
+<br>
 
 ```json
 {
@@ -30,5 +37,6 @@ http://localhost:8080/send-mime
 ```
 
 
+<br>
 
-
+This is not a finished project, but it gives an overall picture on how to use it at implement it, kinda.. You will see comments in the project, where you should handle and exception with try-catch instead of throwing it and maybe make a custom class. You could also make some sort of validation of the EmailMesssage object recieved, just to validate the email.
