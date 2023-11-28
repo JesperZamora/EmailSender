@@ -9,8 +9,7 @@ The CustomerMessage class is the form that the company will get with the custome
 You will need to make an "App password" on your google account. 
  - Login to your google account go to "Manage Your Account" (click on your picture in the left corner).
  - Search for "App password" and create a password.
- - Place it as an Environment Variable
- - Do the same for your gmail (xxx@gmail.com)
+ - Place the password as an Environment Variable in your (see application properties file) and do the same for your gmail (xxx@gmail.com)
 
 Remember! A App password will be rewoked by google if you change your password to your account.
 
