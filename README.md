@@ -1,5 +1,19 @@
 # EmailSender
-This is an custom email service using the google api and java spring JavaMailSender Api
+This is an custom email service using the google api and java spring JavaMailSender Api.
+I'm using Spring Boot an for the dependencies:
+
+```
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-mail</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+```
+
+<br>
 
 This project can be used for a website that has a form for customers to reach out to a company.
 When a customer fills out the form their message will be sendt your email and an auto-reply mail will be sent to the customer.
