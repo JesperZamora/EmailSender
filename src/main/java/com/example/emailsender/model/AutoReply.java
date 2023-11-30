@@ -3,7 +3,7 @@ package com.example.emailsender.model;
 public class AutoReply {
 
     public String autoReplySubjectField() {
-        return "Auto-Svar";
+        return "Auto-Svar: ";
     }
 
     public String buildAutoReply() {

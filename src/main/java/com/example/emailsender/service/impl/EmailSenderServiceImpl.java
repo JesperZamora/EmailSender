@@ -26,7 +26,7 @@ public class EmailSenderServiceImpl implements EmailSenderService {
     }
 
 
-    //The method below is a walmart version of the email sender. It's basic, scrapped version.
+    //The method below is a walmart version of the email-sender. It's a basic, scrapped version.
     @Override
     public void sendEmail(EmailMessage mail) {
         SimpleMailMessage mailMessage = new SimpleMailMessage();
@@ -57,13 +57,12 @@ public class EmailSenderServiceImpl implements EmailSenderService {
         MimeMessageHelper message = new MimeMessageHelper(mimeMessage, true);
 
         message.setFrom(fromMail);
-        message.setTo(mail.getTo());
+        message.setTo(fromMail);
         message.setReplyTo(mail.getReply());
         message.setSubject(mail.getSubject());
         message.setText(customerMessage.buildCustomerMessage(), true);
 
         mailSender.send(mimeMessage);
-
 
         //Sends reply message to customer confirming the mail has been received.
         //AutoReply is a custom class that holds the html and css for an auto reply to the customer.
